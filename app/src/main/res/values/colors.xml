@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gradfrom">#dc757575</color>
+    <color name="gradto">#353434</color>
+
+    <color name="colorPrimary">#dc757575</color>
+    <color name="colorPrimaryDark">#353434</color>
+    <color name="colorAccent">#51C5CAE9</color>
+    <color name="color0">#51C5CAE9</color>
+    <color name="color2">#ffffff</color>
+    <color name="color4">#C5CAE9</color>
+    <color name="colorText">#ffffff</color>
+    <color name="colorTextPink">#FF4081</color>
+
+    <color name="colorTextZag">#bdbdbd</color>#bdbdbd
+
+    <color name="colorBack">#121212</color>
+
+    <color name="colorFlag">#C5CAE9</color>
+
+    <color name="colorInvis">#00ffffff</color>
+
+    <color name="colorBlack">#424242</color>
+    <color name="colorBlackGrey">#616161</color>
+    <color name="colorGrey">#dc757575</color>
+
+    <color name="colorButtonNormal">#ffffff</color>
+    <color name="colorTextButton">#ffffff</color>
+    <color name="net">#00303f9f</color>
+
+</resources>

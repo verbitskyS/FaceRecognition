@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_marginBottom="100dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true">
+
+        <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:indeterminate="true"
+                android:indeterminateTintMode="src_atop"
+                android:indeterminateTint="@color/colorTextButton"
+        />
+
+
+        <Button
+                android:id="@+id/find"
+                android:text="Find the Face"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:background="@color/colorInvis"
+                android:textColor="@color/color2"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:id="@+id/register"
+                android:text="Sign up"
+                android:layout_marginTop="22dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:background="@color/colorInvis"
+                android:textColor="@color/color2"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
